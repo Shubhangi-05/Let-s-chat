@@ -1,0 +1,28 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "It is a real time chat app made using nodejs and socket.io It includes Functionalities like JWT authorization,group creation and individual chats",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.0",
+    "nodemon": "^2.0.22",
+    "react": "^18.2.0",
+    "react-notification-badge": "^1.5.1",
+    "socket.io": "^4.6.2"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.22.3"
+  }
+}
